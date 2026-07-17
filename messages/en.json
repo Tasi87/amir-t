@@ -1,0 +1,63 @@
+{
+  "home": {
+    "title": "Home Page",
+    "portfolio": "Portfolio",
+    "resume": "Resume"
+  },
+  "portfolio": {
+    "title": "Portfolio"
+  },
+  "common": {
+    "backHome": "Home"
+  },
+  "resume": {
+    "title": "Resume",
+    "greeting": "Hello, I am",
+    "name": "Tahssain Amir",
+    "role": "Frontend Developer",
+    "aboutTitle": "About Me",
+    "about": "I am eager to learn and develop new skills, and I enjoy sharing what I've learned with others. I am an effective communicator with experience leading both children and adults as a coach and instructor. As an instructor, I teach methodological courses in climbing gyms and outdoors on rock faces. During these sessions, I teach climbing technique and important mental preparation strategies. I also help my students overcome their fear of heights and falling. I make sure my students learn everything they need to know. As a coach, I lead training sessions for children, focusing on improving their climbing skills and preparing some of them for various climbing competitions and Slovak Cups. I'm interested in sports climbing, mountaineering, spending time in nature, and coaching and instructing. In my free time, I enjoy reading, traveling, going to the movies, and playing board and computer games.",
+    "contactTitle": "Contact",
+    "contactEmail": "tasi87@gmail.com",
+    "contactLocation": "Bratislava, Slovakia",
+    "skillsTitle": "Skills",
+    "languagesTitle": "Languages",
+    "languageSlovak": "Slovak — native language",
+    "languageEnglish": "English — B1 intermediate",
+    "languageGerman": "German — A2 beginner (still learning)",
+    "experienceTitle": "Work Experience",
+    "exp1Period": "October 2019 — present",
+    "exp1Title": "Indoor Climbing Instructor",
+    "exp1Subtitle": "VENGA s.r.o.",
+    "exp1Description": "Bratislava II, Slovakia",
+    "exp2Period": "June 2019 - 2023",
+    "exp2Title": "UBER - driver",
+    "exp2Subtitle": "Tahssain Amir (self-employed)",
+    "exp2Description": "Bratislava II, Slovakia",
+    "exp3Period": "July 2014 - present",
+    "exp3Title": "Technological Dispatcher",
+    "exp3Subtitle": "Bratislava Waterworks Company, s.r.o.",
+    "exp3Description": "Bratislava II, Slovakia",
+    "educationTitle": "Education",
+    "edu1Period": "September 2003 - May 2007",
+    "edu1Title": "Secondary School of Chemistry, Bratislava",
+    "edu1Subtitle": "Biotechnology",
+    "edu1Description": "",
+    "edu2Period": "2020 - present",
+    "edu2Title": "JAMES Climbing School",
+    "edu2Subtitle": "Instructor of Indoor Climbing",
+    "edu2Description": "",
+    "edu3Period": "2021 - present",
+    "edu3Title": "JAMES Climbing School",
+    "edu3Subtitle": "Instructor of Rock Climbing",
+    "edu3Description": "",
+    "edu4Period": "2022 - present",
+    "edu4Title": "JAMES Climbing School",
+    "edu4Subtitle": "Coach of Sports Climbing",
+    "edu4Description": "",
+    "edu5Period": "June 2022",
+    "edu5Title": "Falck Healthcare a.s.",
+    "edu5Subtitle": "First Aid Course",
+    "edu5Description": ""
+  }
+}

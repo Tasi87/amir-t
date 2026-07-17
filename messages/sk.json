@@ -1,0 +1,63 @@
+{
+  "home": {
+    "title": "Domovská stránka",
+    "portfolio": "Portfólio",
+    "resume": "Životopis"
+  },
+  "portfolio": {
+    "title": "Portfólio"
+  },
+  "common": {
+    "backHome": "Domov"
+  },
+  "resume": {
+    "title": "Životopis",
+    "greeting": "Ahoj, som",
+    "name": "Tahssain Amir",
+    "role": "Frontend Developer",
+    "aboutTitle": "O mne",
+    "about": "Rád sa učím a rozvíjam nové zručnosti a rád sa delím o to, čo som sa naučil, s ostatnými. Som efektívny komunikátor so skúsenosťami s vedením detí aj dospelých ako tréner a inštruktor. Ako inštruktor učím metodické kurzy v lezeckých halách a vonku na skalách. Počas týchto lekcií učím lezeckú techniku a dôležité stratégie psychickej prípravy. Tiež pomáham svojim študentom prekonať strach z výšok a pádov. Dbám na to, aby sa moji študenti naučili všetko potrebné. Ako tréner vediem tréningy pre deti, kde sa zameriavam na zlepšovanie ich lezeckých zručností a na prípravu niektorých z nich na rôzne lezecké súťaže a Slovenské poháre. Zaujíma ma športové lezenie, horolezectvo, pobyt v prírode, trénerská a inštruktorská činnosť. Vo voľnom čase rád čítam, cestujem, chodím do kina a hrám doskové a počítačové hry.",
+    "contactTitle": "Kontakt",
+    "contactEmail": "tasi87@gmail.com",
+    "contactLocation": "Bratislava, Slovensko",
+    "skillsTitle": "Zručnosti",
+    "languagesTitle": "Jazyky",
+    "languageSlovak": "Slovenčina — rodný jazyk",
+    "languageEnglish": "Angličtina — B1 mierne pokročilý",
+    "languageGerman": "Nemčina — A2 začiatočník (stále sa učím)",
+    "experienceTitle": "Pracovné skúsenosti",
+    "exp1Period": "Október 2019 — súčasnosť",
+    "exp1Title": "Inštruktor lezenia na umelých stenách",
+    "exp1Subtitle": "VENGA s.r.o.",
+    "exp1Description": "Bratislava II, Slovensko",
+    "exp2Period": "Jún 2019 - 2023",
+    "exp2Title": "UBER - vodič",
+    "exp2Subtitle": "Tahssain Amir (živnosť)",
+    "exp2Description": "Bratislava II, Slovensko",
+    "exp3Period": "Júl 2014 - súčasnosť",
+    "exp3Title": "Technologický dispečer",
+    "exp3Subtitle": "Bratislavská vodárenská spoločnosť, a.s.",
+    "exp3Description": "Bratislava II, Slovensko",
+    "educationTitle": "Vzdelanie",
+    "edu1Period": "September 2003 - Máj 2007",
+    "edu1Title": "Združená stredná škola Chemická, Bratislava",
+    "edu1Subtitle": "Biotechnológia",
+    "edu1Description": "",
+    "edu2Period": "2020 - súčasnosť",
+    "edu2Title": "Horoškola JAMES",
+    "edu2Subtitle": "Inštruktor lezenia na umelých stenách",
+    "edu2Description": "",
+    "edu3Period": "2021 - súčasnosť",
+    "edu3Title": "Horoškola JAMES",
+    "edu3Subtitle": "Inštruktor skalného lezenia",
+    "edu3Description": "",
+    "edu4Period": "2022 - súčasnosť",
+    "edu4Title": "Horoškola JAMES",
+    "edu4Subtitle": "Tréner športového lezenia",
+    "edu4Description": "",
+    "edu5Period": "Jún 2022",
+    "edu5Title": "Falck Healthcare a.s.",
+    "edu5Subtitle": "Kurz prvej pomoci",
+    "edu5Description": ""
+  }
+}

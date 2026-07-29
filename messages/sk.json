@@ -5,7 +5,34 @@
     "resume": "Životopis"
   },
   "portfolio": {
-    "title": "Portfólio"
+    "title": "Portfólio",
+    "eyebrow": "Moja práca",
+    "backToPortfolio": "Späť na Portfólio",
+    "subtitle": "Vyber si projekt a pozri sa, ako funguje",
+    "viewProject": "Zobraziť projekt",
+    "projects": {
+      "todo": {
+        "title": "To-Do list",
+        "description": "Vlastné API a backend logika",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Jednoduchý zoznam úloh napojený na vlastné API route handlery."
+      },
+      "meteo": {
+        "title": "Meteo",
+        "description": "Napojenie na externé API",
+        "details": "Sed do eiusmod tempor incididunt ut labore. Zobrazenie aktuálneho počasia z externého API."
+      },
+      "guestbook": {
+        "title": "Návštevná kniha",
+        "description": "Skutočná databáza",
+        "details": "Ut enim ad minim veniam, quis nostrud exercitation. Komentáre ukladané do skutočnej databázy."
+      }
+    }
+  },
+  "todo": {
+    "placeholder": "Napíš úlohu...",
+    "add": "Pridať",
+    "delete": "Zmazať",
+    "empty": "Zatiaľ žiadne úlohy"
   },
   "common": {
     "backHome": "Domov"

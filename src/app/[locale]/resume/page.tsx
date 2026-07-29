@@ -55,6 +55,7 @@ export default function ResumePage() {
               <SectionHeading>{t("skillsTitle")}</SectionHeading>
               <div className="flex flex-wrap gap-2">
                 <SkillBadge>TypeScript</SkillBadge>
+                <SkillBadge>JavaScript</SkillBadge>
                 <SkillBadge>React</SkillBadge>
                 <SkillBadge>Next.js</SkillBadge>
                 <SkillBadge>Node.js</SkillBadge>

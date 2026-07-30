@@ -18,6 +18,6 @@ jobs:
           script: |
             cd ${{ secrets.PROJECT_PATH }}
             git pull origin main
-            npm install --omit=dev
+            npm install
             npm run build
             pm2 restart amir-t

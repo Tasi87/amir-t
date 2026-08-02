@@ -16,8 +16,12 @@ export default function PortfolioPage() {
           <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-indigo-600">
             {t("eyebrow")}
           </p>
-          <h1 className="text-4xl font-bold text-slate-900">{t("title")}</h1>
-          <p className="mt-3 text-lg text-slate-500">{t("subtitle")}</p>
+          <h1 className="text-4xl font-bold text-slate-900 sm:text-5xl dark:text-slate-100">
+            {t("title")}
+          </h1>
+          <p className="mt-3 text-lg text-slate-500 dark:text-slate-400">
+            {t("subtitle")}
+          </p>
         </section>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (

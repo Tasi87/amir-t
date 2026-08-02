@@ -34,7 +34,7 @@ export default function TodoList() {
   // Deleting
   async function handleDelete(id: string) {
     await fetch(`/api/todos/${id}`, { method: "DELETE" });
-    setTodos((prev) => prev.filter((todo) => todo.id != id));
+    setTodos((prev) => prev.filter((todo) => todo.id !== id));
   }
 
   // Adding form
@@ -46,7 +46,7 @@ export default function TodoList() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder={t("placeholder")}
-          className="flex-1 rounded-lg border border-slate-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="flex-1 rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
         />
         <button
           type="submit"
@@ -56,18 +56,22 @@ export default function TodoList() {
         </button>
       </form>
       {todos.length === 0 ? (
-        <p className="text-sm text-slate-500">{t("empty")}</p>
+        <p className="text-sm text-slate-500 dark:text-slate-400">
+          {t("empty")}
+        </p>
       ) : (
         <ul className="space-y-2">
           {todos.map((todo) => (
             <li
               key={todo.id}
-              className="flex items-center justify-between rounded-lg border border-slate-200 px-4 py-2.5"
+              className="flex items-center justify-between rounded-lg border border-slate-200 px-4 py-2.5 dark:border-slate-800"
             >
-              <span className="text-sm text-slate-700">{todo.title}</span>
+              <span className="text-sm text-slate-700 dark:text-slate-300">
+                {todo.title}
+              </span>
               <button
                 onClick={() => handleDelete(todo.id)}
-                className="text-xs font-medium text-slate-400 hover:text-red-600"
+                className="text-xs font-medium text-slate-400 hover:text-red-600 dark:text-slate-500 dark:hover:text-red-400"
               >
                 {t("delete")}
               </button>

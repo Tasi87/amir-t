@@ -28,18 +28,18 @@ export default async function ProjectDetailPage({ params }: Props) {
         <div className="mx-auto max-w-2xl">
           <Link
             href="/portfolio"
-            className="mb-8 inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition hover:text-indigo-600"
+            className="mb-8 inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("backToPortfolio")}
           </Link>
-          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-lx bg-indigo-50">
-            <Icon className="h-7 w-ý text-indigo-600" />
+          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-indigo-50 dark:bg-indigo-950">
+            <Icon className="h-7 w-7 text-indigo-600 dark:text-indigo-400" />
           </div>
-          <h1 className="mb-3 text-3xl font-bold text-slate-900">
+          <h1 className="mb-3 text-3xl font-bold text-slate-900 dark:text-slate-100">
             {t(`projects.${slug}.title`)}
           </h1>
-          <p className="text-base leading-relaxed text-slate-600">
+          <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400">
             {t(`projects.${slug}.details`)}
           </p>
         </div>

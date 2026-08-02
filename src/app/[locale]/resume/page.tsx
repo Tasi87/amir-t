@@ -14,7 +14,7 @@ export default function ResumePage() {
   return (
     <main className="flex-1 py-16">
       <Container>
-        <section className="mb-16 flex flex-col items-center gap-8 border-b border-slate-200 pb-12 text-center sm:flex-row sm:text-left">
+        <section className="mb-16 flex flex-col items-center gap-8 border-b border-slate-200 pb-12 text-center sm:flex-row sm:text-left dark:border-slate-800">
           <Image
             src="/img/Tasi-biela.jpeg"
             alt="Tahssain Amir"
@@ -27,10 +27,12 @@ export default function ResumePage() {
             <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-indigo-600">
               {t("greeting")}
             </p>
-            <h1 className="text-4xl font-bold text-slate-900 sm:text-5xl">
+            <h1 className="text-4xl font-bold text-slate-900 sm:text-5xl dark:text-slate-100">
               {t("name")}
             </h1>
-            <p className="mt-3 text-lg text-slate-500">{t("role")}</p>
+            <p className="mt-3 text-lg text-slate-500 dark:text-slate-400">
+              {t("role")}
+            </p>
           </div>
         </section>
 
@@ -38,14 +40,14 @@ export default function ResumePage() {
           <aside className="space-y-10 lg:col-span-1">
             <div>
               <SectionHeading>{t("aboutTitle")}</SectionHeading>
-              <p className="text-sm leading-relaxed text-slate-600">
+              <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
                 {t("about")}
               </p>
             </div>
 
             <div>
               <SectionHeading>{t("contactTitle")}</SectionHeading>
-              <ul className="space-y-2 text-sm text-slate-600">
+              <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
                 <li>{t("contactEmail")}</li>
                 <li>{t("contactLocation")}</li>
               </ul>
@@ -69,7 +71,7 @@ export default function ResumePage() {
 
             <div>
               <SectionHeading>{t("languagesTitle")}</SectionHeading>
-              <ul className="space-y-1 text-sm text-slate-600">
+              <ul className="space-y-1 text-sm text-slate-600 dark:text-slate-400">
                 <li>{t("languageSlovak")}</li>
                 <li>{t("languageEnglish")}</li>
                 <li>{t("languageGerman")}</li>
@@ -91,6 +93,12 @@ export default function ResumePage() {
                 title={t("exp2Title")}
                 subtitle={t("exp2Subtitle")}
                 description={t("exp2Description")}
+              />
+              <TimelineItem
+                period={t("exp3Period")}
+                title={t("exp3Title")}
+                subtitle={t("exp3Subtitle")}
+                description={t("exp3Description")}
               />
             </div>
 

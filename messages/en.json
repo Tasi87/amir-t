@@ -32,7 +32,8 @@
     "placeholder": "Write a task...",
     "add": "Add",
     "delete": "Delete",
-    "empty": "No tasks yet"
+    "empty": "No tasks yet",
+    "toggle": "Mark as done"
   },
   "common": {
     "backHome": "Home"

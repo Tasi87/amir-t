@@ -32,7 +32,8 @@
     "placeholder": "Napíš úlohu...",
     "add": "Pridať",
     "delete": "Zmazať",
-    "empty": "Zatiaľ žiadne úlohy"
+    "empty": "Zatiaľ žiadne úlohy",
+    "toggle": "Označiť ako dokončené"
   },
   "common": {
     "backHome": "Domov"

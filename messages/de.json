@@ -32,7 +32,8 @@
     "placeholder": "Aufgabe schreiben...",
     "add": "Hinzufügen",
     "delete": "Löschen",
-    "empty": "Noch keine Aufgaben"
+    "empty": "Noch keine Aufgaben",
+    "toggle": "Als erledigt markieren"
   },
   "common": {
     "backHome": "Startseite"

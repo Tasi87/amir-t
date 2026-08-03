@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import type { Todo } from "./types";
+import { Square, SquareCheck } from "lucide-react";
 //-----------------------------
 
 export default function TodoList() {
@@ -37,6 +38,18 @@ export default function TodoList() {
     setTodos((prev) => prev.filter((todo) => todo.id !== id));
   }
 
+  // Toggle
+  async function handleToggle(todo: Todo) {
+    const res = await fetch(`/api/todos/${todo.id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ completed: !todo.completed }),
+    });
+    const updated: Todo = await res.json();
+
+    setTodos((prev) => prev.map((t) => (t.id === updated.id ? updated : t)));
+  }
+
   // Adding form
   return (
     <div>
@@ -66,9 +79,28 @@ export default function TodoList() {
               key={todo.id}
               className="flex items-center justify-between rounded-lg border border-slate-200 px-4 py-2.5 dark:border-slate-800"
             >
-              <span className="text-sm text-slate-700 dark:text-slate-300">
-                {todo.title}
-              </span>
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={() => handleToggle(todo)}
+                  aria-label={t("toggle")}
+                  className="text-slate-400 transition hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
+                >
+                  {todo.completed ? (
+                    <SquareCheck className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
+                  ) : (
+                    <Square className="h-5 w-5" />
+                  )}
+                </button>
+                <span
+                  className={
+                    todo.completed
+                      ? "text-sm text-slate-400 line-through dark:text-slate-500"
+                      : "text-sm text-slaate-700 dark:text-slate-300"
+                  }
+                >
+                  {todo.title}
+                </span>
+              </div>
               <button
                 onClick={() => handleDelete(todo.id)}
                 className="text-xs font-medium text-slate-400 hover:text-red-600 dark:text-slate-500 dark:hover:text-red-400"

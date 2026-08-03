@@ -5,26 +5,26 @@
     "resume": "Lebenslauf"
   },
   "portfolio": {
-    "title": "Portfólio",
-    "eyebrow": "Moja práca",
+    "title": "Portfolio",
+    "eyebrow": "Meine Arbeit",
     "backToPortfolio": "Zurück zum Portfolio",
-    "subtitle": "Vyber si projekt a pozri sa, ako funguje",
-    "viewProject": "Zobraziť projekt",
+    "subtitle": "Wähle ein Projekt aus und sieh, wie es funktioniert",
+    "viewProject": "Projekt anzeigen",
     "projects": {
       "todo": {
-        "title": "To-Do list",
-        "description": "Vlastné API a backend logika",
-        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Jednoduchý zoznam úloh napojený na vlastné API route handlery."
+        "title": "To-Do-Liste",
+        "description": "Eigene API und Backend-Logik",
+        "details": "Eine einfache To-Do-Liste, verbunden mit eigenen API-Route-Handlern."
       },
       "meteo": {
         "title": "Meteo",
-        "description": "Napojenie na externé API",
-        "details": "Sed do eiusmod tempor incididunt ut labore. Zobrazenie aktuálneho počasia z externého API."
+        "description": "Anbindung an eine externe API",
+        "details": "Zeigt aktuelles Wetter über eine externe API an."
       },
       "guestbook": {
-        "title": "Návštevná kniha",
-        "description": "Skutočná databáza",
-        "details": "Ut enim ad minim veniam, quis nostrud exercitation. Komentáre ukladané do skutočnej databázy."
+        "title": "Gästebuch",
+        "description": "Echte Datenbank",
+        "details": "Kommentare in einer echten Datenbank gespeichert."
       }
     }
   },

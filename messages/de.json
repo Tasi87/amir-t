@@ -19,7 +19,11 @@
       "meteo": {
         "title": "Meteo",
         "description": "Anbindung an eine externe API",
-        "details": "Zeigt aktuelles Wetter über eine externe API an."
+        "details": "Zeigt aktuelles Wetter über eine externe API an.",
+        "placeholder": "Stadt eingeben...",
+        "search": "Suchen",
+        "loading": "Lädt...",
+        "notFound": "Stadt nicht gefunden"
       },
       "guestbook": {
         "title": "Gästebuch",

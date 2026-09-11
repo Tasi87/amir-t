@@ -19,7 +19,11 @@
       "meteo": {
         "title": "Meteo",
         "description": "Integration with an external API",
-        "details": "Displays current weather from an external API."
+        "details": "Displays current weather from an external API.",
+        "placeholder": "Enter a city...",
+        "search": "Search",
+        "loading": "Loading...",
+        "notFound": "City not found"
       },
       "guestbook": {
         "title": "Guestbook",

@@ -7,9 +7,9 @@ import { routing } from "@/i18n/routing";
 
 // Language Switcher Component
 const localeLabels: Record<string, string> = {
-  sk: "Slovenčina",
-  en: "English",
-  de: "Deutsch",
+  sk: "SK",
+  en: "ENG",
+  de: "DE",
 };
 
 export default function LanguageSwitcher() {

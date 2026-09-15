@@ -32,6 +32,8 @@ export async function GET(request: Request) {
     temperature: Math.round(data.main.temp),
     description: data.weather[0].description,
     icon: data.weather[0].icon,
+    lat: data.coord.lat,
+    lon: data.coord.lon,
   };
 
   return NextResponse.json(weather);

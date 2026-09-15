@@ -3,4 +3,6 @@ export type WeatherData = {
   temperature: number;
   description: string;
   icon: string;
+  lat: number;
+  lon: number;
 };

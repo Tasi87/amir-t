@@ -6,6 +6,8 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import Header from "@/components/Header";
 import ThemeProvider from "@/components/ThemeProvider";
+import { CookieConsentProvider } from "@/context/CookieConsentContext";
+import CookieBanner from "@/components/CookieBanner";
 //-----------------------------
 
 // Metadata
@@ -28,12 +30,15 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
-        <ThemeProvider>
-          <NextIntlClientProvider>
-            <Header />
-            {children}
-          </NextIntlClientProvider>
-        </ThemeProvider>
+        <CookieConsentProvider>
+          <ThemeProvider>
+            <NextIntlClientProvider>
+              <Header />
+              {children}
+              <CookieBanner />
+            </NextIntlClientProvider>
+          </ThemeProvider>
+        </CookieConsentProvider>
       </body>
     </html>
   );

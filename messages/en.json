@@ -4,6 +4,12 @@
     "portfolio": "Portfolio",
     "resume": "Resume"
   },
+  "cookies": {
+    "message": "This site uses localStorage to save your search history and preferences.",
+    "accept": "Got it",
+    "decline": "Decline",
+    "mapBlocked": "The map requires cookie consent (see banner below)"
+  },
   "portfolio": {
     "title": "Portfolio",
     "eyebrow": "My work",
@@ -25,6 +31,7 @@
         "loading": "Loading...",
         "notFound": "City not found"
       },
+
       "guestbook": {
         "title": "Guestbook",
         "description": "Real database",

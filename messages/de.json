@@ -4,6 +4,12 @@
     "portfolio": "Portfolio",
     "resume": "Lebenslauf"
   },
+  "cookies": {
+    "message": "Diese Seite verwendet localStorage, um deinen Suchverlauf und deine Einstellungen zu speichern.",
+    "accept": "Verstanden",
+    "decline": "Ablehnen",
+    "mapBlocked": "Die Karte erfordert die Zustimmung zu Cookies (siehe Banner unten)"
+  },
   "portfolio": {
     "title": "Portfolio",
     "eyebrow": "Meine Arbeit",
@@ -25,6 +31,7 @@
         "loading": "Lädt...",
         "notFound": "Stadt nicht gefunden"
       },
+
       "guestbook": {
         "title": "Gästebuch",
         "description": "Echte Datenbank",

@@ -4,6 +4,12 @@
     "portfolio": "Portfólio",
     "resume": "Životopis"
   },
+  "cookies": {
+    "message": "Táto stránka používa localStorage na uloženie histórie vyhľadávania a tvojich preferencií.",
+    "accept": "Rozumiem",
+    "decline": "Odmietnuť",
+    "mapBlocked": "Mapa vyžaduje súhlas s cookies (pozri banner nižšie)"
+  },
   "portfolio": {
     "title": "Portfólio",
     "eyebrow": "Moja práca",

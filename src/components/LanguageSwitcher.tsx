@@ -25,7 +25,8 @@ export default function LanguageSwitcher() {
     <select
       value={locale}
       onChange={handleChange}
-      arial-label="Zmeniť jazyk"
+      autoComplete="off"
+      aria-label="Zmeniť jazyk"
       className="rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
     >
       {routing.locales.map((loc) => (
